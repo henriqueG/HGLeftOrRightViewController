@@ -21,7 +21,7 @@ Just drop the HGLeftOrRightViewController.h and .m into your project.
 
 
 ![alt tag](https://github.com/henriqueG/HGLeftOrRightViewController/blob/master/SS.png)
-
+ 
 
 # License
 HGLeftOrRightViewController is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
