@@ -9,10 +9,43 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    NSArray *content;
+}
 @end
 
 @implementation ViewController
+
+- (void)awakeFromNib {
+    content = @[@"test", @"test2", @"test3", @"test4"];
+}
+
+- (NSInteger)numberOfItemsInLeftOrRightView:(HGLeftOrRightViewController*)lorView {
+    return [content count];
+}
+
+- (HGViewCell*)leftOrRightView:(HGLeftOrRightViewController*)lorView cellForItemAtIndexPath:(NSIndexPath*)indexPath {
+    HGViewCell *viewCell = [[HGViewCell alloc] init];
+
+    viewCell.information.text = [content objectAtIndex:[indexPath item]];
+    
+    return viewCell;
+}
+
+- (CGSize)cellSizeOfleftOrRightView:(HGLeftOrRightViewController*)lorView {
+    return CGSizeMake(150, 400);
+}
+
+- (NSInteger)numberOfItemsToPreLoadInLeftOrRightView:(HGLeftOrRightViewController*)lorView {
+    return 2;
+}
+
+- (void)leftOrRightView:(HGLeftOrRightViewController*)lorView didSwapItemAtIndexPath:(NSIndexPath*)indexPath toSide:(HGSwipe)swipeSide {
+    NSLog(@"SIDE %d", swipeSide);
+}
+
+- (void)leftOrRightView:(HGLeftOrRightViewController *)lorView isDraggingItemAtIndexPath:(NSIndexPath *)indexPath withOffset:(CGPoint)offset {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

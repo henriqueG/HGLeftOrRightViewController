@@ -13,6 +13,8 @@
 		B8A8A4C61BAB4FAE00F5D451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A8A4C41BAB4FAE00F5D451 /* Main.storyboard */; };
 		B8A8A4C81BAB4FAE00F5D451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A8A4C71BAB4FAE00F5D451 /* Assets.xcassets */; };
 		B8A8A4CB1BAB4FAE00F5D451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A8A4C91BAB4FAE00F5D451 /* LaunchScreen.storyboard */; };
+		B8A8A4D71BAB507700F5D451 /* HGLeftOrRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A8A4D61BAB507700F5D451 /* HGLeftOrRightViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B8A8A4DC1BABB36C00F5D451 /* HGViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A8A4DB1BABB36C00F5D451 /* HGViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B8A8A4C71BAB4FAE00F5D451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8A8A4CA1BAB4FAE00F5D451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8A8A4CC1BAB4FAE00F5D451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A8A4D51BAB507700F5D451 /* HGLeftOrRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGLeftOrRightViewController.h; sourceTree = "<group>"; };
+		B8A8A4D61BAB507700F5D451 /* HGLeftOrRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGLeftOrRightViewController.m; sourceTree = "<group>"; };
+		B8A8A4DB1BABB36C00F5D451 /* HGViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				B8A8A4BF1BAB4FAE00F5D451 /* AppDelegate.m */,
 				B8A8A4C11BAB4FAE00F5D451 /* ViewController.h */,
 				B8A8A4C21BAB4FAE00F5D451 /* ViewController.m */,
+				B8A8A4D51BAB507700F5D451 /* HGLeftOrRightViewController.h */,
+				B8A8A4D61BAB507700F5D451 /* HGLeftOrRightViewController.m */,
+				B8A8A4DB1BABB36C00F5D451 /* HGViewCell.xib */,
 				B8A8A4C41BAB4FAE00F5D451 /* Main.storyboard */,
 				B8A8A4C71BAB4FAE00F5D451 /* Assets.xcassets */,
 				B8A8A4C91BAB4FAE00F5D451 /* LaunchScreen.storyboard */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A8A4CB1BAB4FAE00F5D451 /* LaunchScreen.storyboard in Resources */,
+				B8A8A4DC1BABB36C00F5D451 /* HGViewCell.xib in Resources */,
 				B8A8A4C81BAB4FAE00F5D451 /* Assets.xcassets in Resources */,
 				B8A8A4C61BAB4FAE00F5D451 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			files = (
 				B8A8A4C31BAB4FAE00F5D451 /* ViewController.m in Sources */,
 				B8A8A4C01BAB4FAE00F5D451 /* AppDelegate.m in Sources */,
+				B8A8A4D71BAB507700F5D451 /* HGLeftOrRightViewController.m in Sources */,
 				B8A8A4BD1BAB4FAE00F5D451 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HGLeftOrRightViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <HGLeftOrRightViewControllerDataSource, HGLeftOrRightViewControllerDelegate>
 
+@property (nonatomic, retain) IBOutlet HGLeftOrRightViewController *hglorView;
 
 @end
 
