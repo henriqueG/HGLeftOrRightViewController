@@ -20,7 +20,7 @@ Just drop the HGLeftOrRightViewController.h and .m into your project.
   4. `-(NSInteger)numberOfItemsToPreLoadInLeftOrRightView:(HGLeftOrRightViewController*)lorView;`
 
 
-![alt tag](https://github.com/henriqueG/HGLeftOrRightViewController/blob/master/SS.png)
+![alt tag](https://github.com/henriqueG/HGLeftOrRightViewController/blob/master/SS2.png)
  
 
 # License
