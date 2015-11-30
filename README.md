@@ -1,5 +1,8 @@
 # HGLeftOrRightViewController
 
+# What is
+HGLeftOrRightViewController is a ViewController that the content appears and responds like Tinder. (Accepting swipes) 
+
 # How to use?
 Just drop the HGLeftOrRightViewController.h and .m into your project.
 
